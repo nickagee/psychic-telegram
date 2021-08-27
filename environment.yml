@@ -1,13 +1,10 @@
-name: dr-app
+name: psy-tele
 channels:
   - conda-forge
   - defaults
 dependencies:
   - python=3.6
-  - scikit-learn=0.19.1
-  - pandas=0.25.3
-  - numpy=1.14.2
-  - nltk
-  - plotly
-  - flask
-  - sqlalchemy
+  - pandas=1.0.5
+  - numpy=1.19.5
+  - matplotlib=3.2.2
+  - jupyterlab
